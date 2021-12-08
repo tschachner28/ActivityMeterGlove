@@ -18,7 +18,7 @@ Figure 1: System Design. The battery powers the Microbit, which has built-in sen
 
 Figure 2: The components on the back of the glove.
 
-![neopixel-map](images/fig3-neopixelmap.png)
+![neopixel-map](images/fig3-neopixelmap.png =300x200)
 
 Figure 3: A map of the NeoPixel ring showing the LEDs allocated to each sensory input, as well as sample colors for each LED.
 
@@ -49,11 +49,11 @@ We soldered the wires attaching to the NeoPixel, but most of the other wired con
 
 ## Pictures
 
-![in-use1](images/fig7-inuse1.jpg)
+![in-use1](images/fig7-inuse1.jpg =300x400)
 
 Figure 7: The colors displayed when the user’s heart rate is at a medium level, sweating is at a low level, hand acceleration is fast, the ambient noise is relatively quiet, and the overall environmental activity is at a relatively calm level. The temperature LEDs are off since these LEDs change color only when the temperature detected is very high or very low. 
 
-![in-use2](images/fig8-inuse2.jpg)
+![in-use2](images/fig8-inuse2.jpg =300x400)
 
 Figure 8: The colors displayed when the user’s pulse is fast, sweat activity is low, and hand acceleration is at a medium level, The temperature and sound sensors are not activated since room temperature and minimal noise are detected.
 
