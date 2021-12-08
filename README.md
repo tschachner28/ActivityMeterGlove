@@ -1,8 +1,8 @@
-`#` Activity Meter Glove: A Glove that Communicates Environmental Activity Using Color
+# Activity Meter Glove: A Glove that Communicates Environmental Activity Using Color
 
 Group Members: Therese Schachner and Sharon Obiefuna
 
-`##` Executive Summary
+## Executive Summary
 A common function of wearable devices is sensing the environment, processing the information collected, and displaying the results in a useful manner. One such device is the mood ring, which uses temperature readings to display colors representing the user’s mood. However, there are many other factors in addition to temperature that can determine mood or activity in an environment. As a result, we have created the Activity Meter Glove, which determines mood or activity based on five sensor readings: temperature, sound, acceleration, the user’s pulse, and the user’s GSR (galvanic sweat response). Since the Activity Meter Glove collects a relatively wide range of data about the environment, the information it displays about environmental activity is relatively well informed.
 
 Block Diagram
@@ -14,21 +14,21 @@ Figure 1: System Design. The battery powers the Microbit, which has built-in sen
 Visual Story 
 Back of the Glove
 
-![block-diagram](images/fig2-backofglove.png)
+![back-of-glove](images/fig2-backofglove.png)
 
 Figure 2: The components on the back of the glove.
 
-![block-diagram](images/fig3-neopixelmap.png)
+![neopixel-map](images/fig3-neopixelmap.png)
 
 Figure 3: A map of the NeoPixel ring showing the LEDs allocated to each sensory input, as well as sample colors for each LED.
 
-![block-diagram](images/fig4-colorscale.png)
+![color-scale](images/fig4-colorscale.png)
 
 Figure 4: The color range for each of the NeoPixel LEDs. Each LED displays a color ranging from red, indicating high activity (such as loud sound or high temperature), to blue, indicating low activity (such as quiet sound or low temperature).
 
 Front of the Glove
 
-![block-diagram](images/fig5-frontofglove.png)
+![front-of-glove](images/fig5-frontofglove.png)
 
 Figure 5: The front view of the glove, from which the pulse sensor and GSR sensors are visible.
 Components Table
@@ -46,7 +46,7 @@ LED’s that communicate the “moods” through colors
 Battery Pack
 The power supply
 
-![block-diagram](images/fig6-componentstable.png)
+![components-table](images/fig6-componentstable.jpg)
 
 Figure 6: The Activity Meter Glove’s hardware components.
 
@@ -61,11 +61,11 @@ We soldered the wires attaching to the NeoPixel, but most of the other wired con
 
 Pictures
 
-![block-diagram](images/fig7-inuse1.png)
+![in-use1](images/fig7-inuse1.jpg)
 
 Figure 7: The colors displayed when the user’s heart rate is at a medium level, sweating is at a low level, hand acceleration is fast, the ambient noise is relatively quiet, and the overall environmental activity is at a relatively calm level. The temperature LEDs are off since these LEDs change color only when the temperature detected is very high or very low. 
 
-![block-diagram](images/fig8-inuse2.png)
+![in-use2](images/fig8-inuse2.jpg)
 
 Figure 8: The colors displayed when the user’s pulse is fast, sweat activity is low, and hand acceleration is at a medium level, The temperature and sound sensors are not activated since room temperature and minimal noise are detected.
 
