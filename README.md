@@ -7,7 +7,7 @@ A common function of wearable devices is sensing the environment, processing the
 
 Block Diagram
 
-[block-diagram](images/fig1-blockdiagram)
+[block-diagram](images/fig1-blockdiagram.png)
 
 Figure 1: System Design. The battery powers the Microbit, which has built-in sensors for temperature, sound, and acceleration. The Microbit processes these sensor inputs, along with GSR and pulse information communicated through their respective sensors, to calculate the colors that should be displayed and communicate them to the NeoPixel ring.
 Visual Story 
