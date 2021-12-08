@@ -18,7 +18,7 @@ Figure 1: System Design. The battery powers the Microbit, which has built-in sen
 
 Figure 2: The components on the back of the glove.
 
-<img src="/images/fig3-neopixelmap.png" width="300" height="200">
+<img src="/images/fig3-neopixelmap.png" width="450" height="300">
 
 Figure 3: A map of the NeoPixel ring showing the LEDs allocated to each sensory input, as well as sample colors for each LED.
 
